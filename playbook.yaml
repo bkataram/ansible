@@ -1,5 +1,5 @@
 -name: PING
- host: web
+ hosts: web
  tasks: #module collection
  -name: pin the server
   ansible.builtin.ping:
