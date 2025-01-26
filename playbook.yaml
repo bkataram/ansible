@@ -1,5 +1,6 @@
--name: PING
- hosts: app
- tasks: #module collection
- -name: pin the server
-  ansible.builtin.ping:
+---
+- name: PING
+  hosts: app
+  tasks:
+    - name: Ping the app hosts
+      ping:
