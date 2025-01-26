@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars: # PLAY level variables
-    GREET: "PLAY"
+    # GREET: "PLAY"
   # vars_files:
   #   - course.yaml
   # vars_prompt:
@@ -16,3 +16,8 @@
     ansible.builtin.debug:
       msg: "Hello from {{ GREET }}"
 
+#1.args
+#2.local
+#3.file
+#4.prompt
+#5.global
