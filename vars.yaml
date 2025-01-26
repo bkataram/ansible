@@ -3,7 +3,7 @@
   connection: local
   vars:
    COURSE: "DevOps with AWS"
-   DURATION: "120HRS"
+   DURATION: 120
  tasks:
  - name: printing the   variables
    ansible.builtin.debug:
