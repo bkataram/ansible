@@ -6,8 +6,8 @@
    DURATION: 120HRS
   tasks:
   - name: print the variables
-  vars:
-   COURSE: "ANSIBLE"
+    vars:
+     COURSE: "ANSIBLE"
     ansible.builtin.debug:
      msg: "Cousrse {{ COURSE }} ,COMPLETATION {{ DURATION }}"
   - name: print the variables1
