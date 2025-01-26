@@ -1,0 +1,7 @@
+- name: varibales
+  hosts: local
+  connection: local
+  tasks:
+  - name: print the variables
+    ansible.builtin.debug:
+     msg: "Cousrse {{ COURSE }} ,COMPLETATION {{ DURATION }}"
