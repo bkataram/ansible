@@ -1,6 +1,5 @@
----
 - name: PING
-  hosts: app
-  tasks:
-    - name: Ping the app hosts
-      ping:
+  hosts: web
+  tasks: # task=module=collection
+  - name: ping the server
+    ansible.builtin.ping:
