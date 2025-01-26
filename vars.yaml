@@ -4,7 +4,7 @@
   vars:
    COURSE: "DevOps with AWS"
    DURATION: "twenty"
- tasks:
- - name: printing the   variables
+  tasks:
+  - name: printing the   variables
    ansible.builtin.debug:
     msg: "Cousrse {{ COURSE }} ,COMPLETATION {{ DURATION }}"
