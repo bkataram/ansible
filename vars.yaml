@@ -1,4 +1,4 @@
--name: varibale
+- name: varibales
  hosts: local
  connection: local
  vars:
